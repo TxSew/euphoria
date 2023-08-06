@@ -8,10 +8,13 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="./style/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -32,78 +35,139 @@
           </div>
           <!-- header-search -->
           <div class="header__search">
-            <i class="fa fa-search" aria-hidden="true"></i>
+            <img src="./assets/icons/search.svg" alt="" />
             <input type="text" placeholder="Search" />
           </div>
-           <!-- cart -->
-           <div class="header__cart">
+          <!-- cart -->
+          <div class="header__cart">
             <div class="header__cart-icon header-heart">
-                <i class="fa fa-heart" aria-hidden="true"></i>
+              <img src="./assets/icons/heart.svg" alt="" />
             </div>
             <div class="header__cart-icon header-user">
-                <i class="fa fa-user" aria-hidden="true"></i>
+              <img src="./assets/icons/user.svg" alt="" />
             </div>
             <div class="header__cart-icon header-shop">
-                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+              <img src="./assets/icons/shopping cart.svg" alt="" />
             </div>
-           </div>
+          </div>
         </div>
       </div>
     </header>
     <!-- details -->
-     <main>
-        <section class="details">
-            <div class="container">
-                <div class="details_wapper">
-                <!-- details image -->
-                <div class="details__images">
-                    <div class="details__images-left">
-                        <a href="" class="link__image">
-                            <img src="./assets/images/detail_left_one.jpg" alt="">
-                        </a>
-                        <a href="" class="link__image">
-                            <img src="./assets/images/detail_left_one.jpg" alt="">
-                        </a>
-                        <a href="" class="link__image">
-                            <img src="./assets/images/detail_left_one.jpg" alt="">
-                        </a>
-                    </div>
-                     <div class="details__images-right">
-                            <img src="./assets//images/details__banner.jpg" alt="">
-                     </div>
+    <main>
+      <section class="details">
+        <div class="container">
+          <div class="details_wapper">
+            <!-- details image -->
+            <div class="details__images">
+              <div class="details__images-left">
+                <a href="" class="link__image">
+                  <img src="./assets/images/detail_left_one.jpg" alt="" />
+                </a>
+                <a href="" class="link__image">
+                  <img src="./assets/images/detail_left_two.jpg" alt="" />
+                </a>
+                <a href="" class="link__image">
+                  <img src="./assets/images/detail_left_three.jpg" alt="" />
+                </a>
+              </div>
+              <div class="details__images-right">
+                <img src="./assets//images/details__banner.jpg" alt="" />
+              </div>
+            </div>
+            <!-- details content -->
+            <div class="details__content">
+              <div class="details__content-nav">
+                <ul>
+                  <li class="details_navlink"><a href="">Shop</a></li>
+                  <img src="./assets/icons/stroke_icon.svg" alt="" />
+                  <li class="details_navlink"><a href="">Women</a></li>
+                  <img src="./assets/icons/stroke_icon.svg" alt="" />
+                  <li class="details_navlink"><a href="">Top</a></li>
+                </ul>
+              </div>
+              <div class="details__content-heading">
+                <h1>Raven Hoodie With Black colored Design</h1>
+              </div>
+              <div class="details__content-desc">
+                <div class="details_star">
+                  <img src="./assets/icons/Star.svg" alt="" />
+                  <img src="./assets/icons/Star.svg" alt="" />
+                  <img src="./assets/icons/Star.svg" alt="" />
+                  <img src="./assets/icons/Star.svg" alt="" />
+                  <img src="./assets/icons/Star.svg" alt="" />
+                  <span>5.0</span>
                 </div>
-                <!-- details content -->
-                <div class="details__content">
-                    <div class="details__content-nav">
-                        <ul>
-                            <li class="details_navlink"><a href="">Shop</a></li>
-                              <img src="./assets/icons/stroke_icon.svg" alt="">
-                            <li class="details_navlink"><a href="">Women</a></li>
-                              <img src="./assets/icons/stroke_icon.svg" alt="">
-                            <li class="details_navlink"><a href="">Top</a></li>
-                        </ul>
-                    </div>
-                     <div class="details__content-heading">
-                        <h1>Raven Hoodie With Black colored Design</h1>
-                     </div>
-                      <div class="details__content-desc">
-                        <div class="details_star">
-                            <img src="./assets/icons/Star.svg" alt="">
-                            <img src="./assets/icons/Star.svg" alt="">
-                            <img src="./assets/icons/Star.svg" alt="">
-                            <img src="./assets/icons/Star.svg" alt="">
-                            <img src="./assets/icons/Star.svg" alt="">
-                             <span>5.0</span>
-                        </div>
-                        <div class="details_comment">
-                            <i class="fa fa-comment" aria-hidden="true"></i>
-                            <span> 120 comment</span>
-                        </div>
-                      </div>
+                <div class="details_comment">
+                  <img src="./assets/icons/message.svg" alt="" />
+                  <span> 120 comment</span>
                 </div>
+              </div>
+              <!-- detail content  size -->
+              <div class="details__content-size">
+                <div class="text-size">
+                  <span>Select Size</span>
+                  <span>Size Guide </span>
+                </div>
+                <div class="btn_size">
+                  <div class="btn_size-item">XS</div>
+                  <div class="btn_size-item">S</div>
+                  <div class="btn_size-item">M</div>
+                  <div class="btn_size-item">L</div>
+                  <div class="btn_size-item">XL</div>
+                </div>
+                 
+              </div>
+              <!-- detail content size -->
+              <div class="details__content-color">
+                <span>Colours Available</span> 
+                   <div class="color-check">
+                     <input type="button">
+                     <input type="button">
+                     <input type="button">
+                     <input type="button">
+                   </div>
+              </div>
+                <div class="details__content-checkout">
+                  <button>
+                    <img src="./assets/icons/IconAddshop.svg" alt="">
+                    <span>Add to cart</span>
+                  </button>
+                   <button>
+                    <span>$63.00</span>
+                   </button>
+                </div>
+                <div class="details__content-br"></div>
+                <div class="details__content-service">
+                  <div class="service_payment details__content-service-item">
+                    <button>
+                      <img src="./assets/icons/credit_card.svg" alt="">
+                    </button>
+                     <span>Secure payment</span>
+                  </div>
+                  <div class="service_payment details__content-service-item">
+                    <button>
+                      <img src="./assets/icons/Size_Fit.svg" alt="">
+                    </button>
+                     <span>Size & Fit</span>
+                  </div>
+                  <div class="service_payment details__content-service-item">
+                    <button>
+                      <img src="./assets/icons/truck.svg" alt="">
+                    </button>
+                     <span>Free shipping</span>
+                  </div>
+                  <div class="service_payment details__content-service-item">
+                    <button>
+                      <img src="./assets/icons/Free Shipping_Returns.svg " alt="">
+                    </button>
+                     <span>Free Shipping & Returns</span>
+                  </div>
                 </div>
             </div>
-        </section>
-     </main>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

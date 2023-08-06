@@ -39,7 +39,7 @@
     background: #f6f6f6;
     padding: 12px 20px 12px 20px;
     border-radius: 8px;
-    & > i {
+    & > img {
       font-size: 20px;
       opacity: 0.5;
     }
@@ -60,6 +60,10 @@
       line-height: 1;
       background-color: #f6f6f6;
        border-radius: 8px;
+        &> img {
+           width: 20px;
+           height: 20px;
+        }
     }
    
       }
